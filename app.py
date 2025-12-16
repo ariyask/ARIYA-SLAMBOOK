@@ -14,7 +14,7 @@ app.secret_key = "your-secret-key"
 # ---------------------------
 # MongoDB CONNECTION
 # ---------------------------
-MONGO_URI = "mongodb+srv://ariyask2006_db_user:ariyask2006@cluster0.xv08dev.mongodb.net/"  # change if using MongoDB Atlas
+MONGO_URI = "mongodb_uri"  # change if using MongoDB Atlas
 client = MongoClient(MONGO_URI)
 db = client["sk_diary"]
 entries = db.entries

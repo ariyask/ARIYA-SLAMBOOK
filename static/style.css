@@ -1,0 +1,73 @@
+:root {
+  --bg: #0b0f12;
+  --panel: #0f1417;
+  --muted: #8b95a0;
+  --accent: #7c9cff;
+}
+
+html, body {
+  height: 100%;
+  background: linear-gradient(#07090b, #0b1014);
+  color: var(--muted);
+  font-family: Inter, system-ui, sans-serif;
+}
+
+.form-shell {
+  max-width: 860px;
+}
+
+.card.glass {
+  background: rgba(16, 18, 20, 0.85);
+  border-radius: 18px;
+  border: 1px solid rgba(255,255,255,0.05);
+  box-shadow: 0 8px 30px rgba(2,6,23,0.65);
+}
+
+.bright-heading {
+  font-size: 2.3rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.bright-sub {
+  color: rgba(255,255,255,0.8);
+}
+
+.bright-label {
+  color: rgba(255,255,255,0.8);
+  font-weight: 600;
+}
+
+.form-input {
+  background: var(--panel);
+  border: 1px solid rgba(255,255,255,0.05);
+  color: #eef2ff;
+  padding: 12px;
+  border-radius: 10px;
+}
+
+.form-input::placeholder {
+  color: rgba(255,255,255,0.25);
+}
+
+.btn-primary {
+  background: var(--accent);
+  border: none;
+  padding: 12px 28px;
+  font-weight: 700;
+  border-radius: 12px;
+}
+
+.preview-grid {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.preview-thumb {
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  object-fit: cover;
+  border: 1px solid rgba(255,255,255,0.1);
+}
